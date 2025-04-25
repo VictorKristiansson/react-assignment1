@@ -1,0 +1,87 @@
+body {
+    background-color: #f8f8fc; 
+    font-family: 'Arial', sans-serif; 
+}
+
+header {
+    text-align: center;
+    background-color: #1e2a47;
+    color: #fff; 
+    padding: 40px 20px; 
+    border-radius: 15px;
+}
+
+header h1 {
+    font-size: 40px; 
+    margin-bottom: 10px;
+    font-weight: bold;
+}
+
+header p {
+    font-size: 18px;
+    color: #d1d1d1; 
+}
+
+.project-container {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    padding: 40px;
+}
+
+.project-card {
+    width: 320px; 
+    border-radius: 12px;
+    background-color: #ffffff; 
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+    transition: transform 0.3s ease;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    border: 1px solid rgba(0, 0, 0, 0.2);
+}
+
+
+.project-card img {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+    border-radius: 8px;
+    margin-bottom: 20px;
+}
+
+.project-card h3 {
+    font-size: 24px;
+    color: #1e2a47; 
+    margin-bottom: 20px;
+}
+
+.project-card p {
+    font-size: 16px;
+    color: #666666; 
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.project-card a {
+    font-size: 16px;
+    color: rgb(70, 139, 183); 
+    text-decoration: none;
+    transition: color 0.5s ease, transform 0.2s ease;
+    margin-bottom: 10px;
+}
+
+.project-card a:hover {
+    text-decoration: underline;
+    cursor: pointer;
+    transform: translateY(-2px); 
+}
+
+
+
+.project-card:hover {
+    transform: scale(1.05);
+}
+
+
