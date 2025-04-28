@@ -1,10 +1,11 @@
 import ProjectCard from "../components/project-card";
+import Header from "../components/header";
 
 
 function Portfolio() {
     return (
         <>
-          <Header />
+        <Header />
           <div className="project-container">
             <ProjectCard 
               name="Productly" 
