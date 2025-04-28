@@ -1,0 +1,35 @@
+import ProjectCard from "../components/project-card";
+
+
+function Portfolio() {
+    return (
+        <>
+          <Header />
+          <div className="project-container">
+            <ProjectCard 
+              name="Productly" 
+              tech="HTML + CSS" 
+              description="Recreated a Figma design using HTML and CSS." 
+              screenshot="./screenshots/lesson-6-screenshot.png" 
+              github="https://github.com/VictorKristiansson/productly-lesson.6" 
+            />
+            <ProjectCard 
+              name="Animation" 
+              tech="HTML + CSS" 
+              description="Created a Happy Birthday card with animations." 
+              screenshot="./screenshots/lesson-9-screenshot.png" 
+              github="https://github.com/VictorKristiansson/lesson-9-animation" 
+            />
+            <ProjectCard 
+              name="Color Palette" 
+              tech="HTML + CSS" 
+              description="Recreated a color palette design using CSS Grid." 
+              screenshot="./screenshots/lesson-10-screenshot.png" 
+              github="https://github.com/VictorKristiansson/lesson-10-css-grid" 
+            />
+          </div>
+        </>
+      );
+};
+
+export default Portfolio;
