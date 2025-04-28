@@ -43,13 +43,5 @@ body {
     text-decoration: underline;
 }
 
-.homepage img {
-    width: 100%; /* Gör att GIFen täcker hela bredden på föräldraelementet */
-    max-width: 600px; /* Begränsar bredden så att den inte blir för stor */
-    height: auto; /* Håller proportionerna på GIFen */
-    margin-top: 20px; /* Lägger till ett mellanrum ovanför GIFen */
-    margin-bottom: 30px; /* Lägger till ett mellanrum under GIFen */
-    border-radius: 10px; /* Rundade hörn för en mjukare look */
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Lätt skugga för en upphöjd effekt */
-}
+
 
