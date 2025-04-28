@@ -1,0 +1,43 @@
+/* About page styling */
+body {
+    background-color: #f8f8fc;
+    font-family: 'Arial', sans-serif;
+}
+
+.about-page {
+    text-align: center;
+    padding: 60px 20px;
+    background-color: #1e2a47;
+    border-radius: 15px;
+}
+
+.about-page h1 {
+    font-size: 40px;
+    font-weight: bold;
+    color: white;
+    margin-bottom: 20px;
+}
+
+.about-page p {
+    font-size: 18px;
+    color: #d1d1d1;
+    margin-bottom: 30px;
+    line-height: 1.6;
+    max-width: 800px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.about-page a {
+    font-size: 18px;
+    color: rgb(180, 222, 249);
+    text-decoration: none;
+    transition: color 0.3s ease;
+    font-weight: bold;
+    font-size: 1.5em;
+}
+
+.about-page a:hover {
+    color: #ffffff;
+    text-decoration: underline;
+}

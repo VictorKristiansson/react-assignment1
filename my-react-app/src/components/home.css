@@ -1,0 +1,55 @@
+
+body {
+    background-color: #f8f8fc; 
+    font-family: 'Arial', sans-serif;
+}
+
+.homepage {
+    text-align: center;
+    padding: 60px 20px;
+    background-color: #1e2a47;
+    border-radius: 15px;
+}
+
+.homepage h1 {
+    font-size: 40px;
+    font-weight: bold;
+    color: #1e2a47;
+    margin-bottom: 20px;
+    color: white;
+}
+
+.homepage p {
+    font-size: 18px;
+    color: #d1d1d1;
+    margin-bottom: 30px;
+    line-height: 1.6;
+    max-width: 800px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.homepage a {
+    font-size: 18px;
+    color: rgb(180, 222, 249);
+    text-decoration: none;
+    transition: color 0.3s ease;
+    font-weight: bold;
+    font-size: 1.5em;
+}
+
+.homepage a:hover {
+    color: #ffffff;
+    text-decoration: underline;
+}
+
+.homepage img {
+    width: 100%; /* Gör att GIFen täcker hela bredden på föräldraelementet */
+    max-width: 600px; /* Begränsar bredden så att den inte blir för stor */
+    height: auto; /* Håller proportionerna på GIFen */
+    margin-top: 20px; /* Lägger till ett mellanrum ovanför GIFen */
+    margin-bottom: 30px; /* Lägger till ett mellanrum under GIFen */
+    border-radius: 10px; /* Rundade hörn för en mjukare look */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Lätt skugga för en upphöjd effekt */
+}
+
