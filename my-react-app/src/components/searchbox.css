@@ -1,0 +1,23 @@
+.searchbox-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #f8f8fc;
+    padding: 20px 20px;
+    border-radius: 8px;
+    margin: 30px;
+    color: #1e2a47;
+}
+
+.searchbox-input {
+    padding: 10px 15px;
+    border-radius: 10px;
+    font-size: 20px;
+    color: #1e2a47;
+    outline: none;
+    width: 100%;
+    max-width: 300px;
+    border: none;
+    box-shadow: 0 5px 5px rgba(0, 0, 0, 0.1);
+}
+
